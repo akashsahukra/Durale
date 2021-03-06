@@ -5,6 +5,21 @@
     padding: 0 40px;
 }
 
+.alert{
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i{
+    margin-right: 10px;
+}
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -75,6 +90,20 @@
     color: white;    
 }
 /* Text utility */
+.text-primary{
+    color: var(--primary-color);
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
+.text-dark{
+    color: var(--dark-color);
+}
+.text-light{
+    color: var(--light-color);
+}
+
+
 .lead{
     font-size: 20px;
 }
